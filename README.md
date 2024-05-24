@@ -1,3 +1,5 @@
+link: https://rodolfoquintanilla.github.io/NFT_preview_card_component06/
+
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
