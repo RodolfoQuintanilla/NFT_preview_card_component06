@@ -1,0 +1,92 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --Very-dark-blue: hsl(217, 54%, 11%);
+  --Very-dark-blue2: hsl(216, 50%, 16%);
+  --Very-dark-blue3: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+body{
+    font-size: 18px;
+    background-color: var(--Very-dark-blue);
+    color: var(--Very-dark-blue3);
+}
+
+.card{
+  
+    width: 300px;
+    height: 100%;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: var(--Very-dark-blue2) ;
+
+}
+.card__img__img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.card__img__img:hover{
+    background-color: black;
+    color: black;
+}
+
+.card__h1{
+    color: var(--White);
+}
+
+.card__h1:hover{
+color: var(--Cyan);
+cursor: pointer;
+}
+
+
+.card__cost{
+    display: flex;
+    align-items: center;
+}
+
+.card__cost__green{
+    color: var(--Cyan);
+}
+.card__line{
+    width: 100;
+    border: 1px solid hsl(215, 32%, 27%);;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.card__avatar{
+display: flex;
+align-items: center;
+}
+.card__avatar__img{
+    width: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.card__avatar__p{
+    color: var(--Very-dark-blue3) ;
+}
+
+.card__text{
+  
+    text-decoration: none;
+    color: var(--White);
+}
+
+.card__text:hover{
+color: var(--Cyan);
+}
